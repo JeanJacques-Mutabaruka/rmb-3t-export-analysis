@@ -1,0 +1,61 @@
+{
+  "exporter": {},
+  "buyer": {
+    "Ganzhou Qingxing New Material Co.,LTD.": {
+      "variants": [
+        "GANZHOU QIANSHUN NEW MATERIAL CO., LTD",
+        "Ganzhou Qingxing"
+      ],
+      "approved_by": "JJ",
+      "approved_at": "2026-09-12T18:07:05",
+      "locked": true
+    },
+    "GUANGDONG XINSHAN TRADING Co., Ltd": {
+      "variants": [
+        "GUANGDONG H&C TRADING CO.,LTD"
+      ],
+      "approved_by": "JJ",
+      "approved_at": "2026-09-12T18:07:05",
+      "locked": true
+    },
+    "XIMEI RESOURCES (HONG KONG) LIMITED": {
+      "variants": [
+        "Ximei resources (Guangdong) limited"
+      ],
+      "approved_by": "JJ",
+      "approved_at": "2026-09-12T18:07:05",
+      "locked": true
+    }
+  },
+  "destination": {},
+  "never_merge": [
+    [
+      "KALON",
+      "HAIPU"
+    ],
+    [
+      "KALON",
+      "RAYSON"
+    ],
+    [
+      "HAIPU",
+      "RAYSON"
+    ],
+    [
+      "DAER",
+      "ZERAN"
+    ],
+    [
+      "ZHONGMA",
+      "SHENGCHENG"
+    ],
+    [
+      "JIAXIN",
+      "QINGXING"
+    ],
+    [
+      "QIANGMIN",
+      "QINGXING"
+    ]
+  ]
+}

@@ -1,0 +1,1433 @@
+{
+  "Cassiterite": {
+    "2019-01": {
+      "price": 20.48,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-02": {
+      "price": 21.268,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-03": {
+      "price": 21.4443,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-04": {
+      "price": 20.6837,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-05": {
+      "price": 19.531,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-06": {
+      "price": 19.1765,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-07": {
+      "price": 17.9913,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-08": {
+      "price": 16.5771,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-09": {
+      "price": 16.8398,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-10": {
+      "price": 16.603,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-11": {
+      "price": 16.3693,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2019-12": {
+      "price": 17.0933,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-01": {
+      "price": 17.0711,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-02": {
+      "price": 16.4565,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-03": {
+      "price": 15.3214,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-04": {
+      "price": 15.0394,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-05": {
+      "price": 15.4085,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-06": {
+      "price": 16.8063,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-07": {
+      "price": 17.453,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-08": {
+      "price": 17.6719,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-09": {
+      "price": 17.9459,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-10": {
+      "price": 18.1541,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-11": {
+      "price": 18.5679,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2020-12": {
+      "price": 19.7273,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-01": {
+      "price": 21.9554,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-02": {
+      "price": 26.7173,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-03": {
+      "price": 27.3963,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-04": {
+      "price": 28.5081,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-05": {
+      "price": 32.5243,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-06": {
+      "price": 32.6777,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-07": {
+      "price": 34.183,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-08": {
+      "price": 35.2526,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-09": {
+      "price": 35.0482,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-10": {
+      "price": 37.9624,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-11": {
+      "price": 39.3327,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2021-12": {
+      "price": 39.5738,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-01": {
+      "price": 41.807,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-02": {
+      "price": 44.1178,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-03": {
+      "price": 44.2489,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-04": {
+      "price": 43.1216,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-05": {
+      "price": 35.9448,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-06": {
+      "price": 31.7767,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-07": {
+      "price": 25.1731,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-08": {
+      "price": 24.5114,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-09": {
+      "price": 21.258,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-10": {
+      "price": 19.4062,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-11": {
+      "price": 21.1364,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2022-12": {
+      "price": 24.099,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-01": {
+      "price": 28.0807,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-02": {
+      "price": 27.0695,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-03": {
+      "price": 24.0144,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-04": {
+      "price": 25.8861,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-05": {
+      "price": 25.6097,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-06": {
+      "price": 27.2627,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-07": {
+      "price": 28.7514,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-08": {
+      "price": 25.9952,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-09": {
+      "price": 25.5586,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-10": {
+      "price": 24.6177,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-11": {
+      "price": 24.2211,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2023-12": {
+      "price": 24.6063,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-01": {
+      "price": 25.2114,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-02": {
+      "price": 26.1567,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-03": {
+      "price": 27.446,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-04": {
+      "price": 31.8448,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-05": {
+      "price": 33.1533,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-06": {
+      "price": 32.2287,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-07": {
+      "price": 32.0039,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-08": {
+      "price": 31.5121,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-09": {
+      "price": 31.6438,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-10": {
+      "price": 32.2172,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-11": {
+      "price": 29.7683,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2024-12": {
+      "price": 28.8777,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-01": {
+      "price": 29.6182,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-02": {
+      "price": 31.8762,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-03": {
+      "price": 34.0262,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-04": {
+      "price": 32.6912,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-05": {
+      "price": 32.1435,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-06": {
+      "price": 32.4755,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-07": {
+      "price": 33.6935,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-08": {
+      "price": 33.87,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-09": {
+      "price": 34.54,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-10": {
+      "price": 36.0459,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-11": {
+      "price": 37.0157,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2025-12": {
+      "price": 41.3521,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-01": {
+      "price": 49.9038,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-02": {
+      "price": 48.675,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-03": {
+      "price": 47.5154,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-04": {
+      "price": 48.9417,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-05": {
+      "price": 53.6874,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-06": {
+      "price": 53.3575,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-07": {
+      "price": 53.1017,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-08": {
+      "price": 55.654,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    },
+    "2026-09": {
+      "price": 54.5728,
+      "basis": "REAL",
+      "note": "LME tin cash settlement, monthly average (westmetall.com)"
+    }
+  },
+  "Coltan": {
+    "2019-01": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-02": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-03": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-04": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-05": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-06": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-07": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-08": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-09": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-10": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-11": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2019-12": {
+      "price": 161.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2019, $/kg Ta2O5"
+    },
+    "2020-01": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-02": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-03": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-04": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-05": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-06": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-07": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-08": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-09": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-10": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-11": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2020-12": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2020, $/kg Ta2O5"
+    },
+    "2021-01": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-02": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-03": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-04": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-05": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-06": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-07": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-08": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-09": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-10": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-11": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2021-12": {
+      "price": 158.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2021, $/kg Ta2O5"
+    },
+    "2022-01": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-02": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-03": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-04": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-05": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-06": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-07": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-08": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-09": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-10": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-11": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2022-12": {
+      "price": 206.5,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2022, $/kg Ta2O5"
+    },
+    "2023-01": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-02": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-03": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-04": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-05": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-06": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-07": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-08": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-09": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-10": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-11": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2023-12": {
+      "price": 190.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2023, $/kg Ta2O5"
+    },
+    "2024-01": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-02": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-03": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-04": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-05": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-06": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-07": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-08": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-09": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-10": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-11": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2024-12": {
+      "price": 167.0,
+      "basis": "REAL",
+      "note": "USGS/CRU annual average tantalite 2024, $/kg Ta2O5"
+    },
+    "2025-01": {
+      "price": 168.1818,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-02": {
+      "price": 169.3636,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-03": {
+      "price": 170.5455,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-04": {
+      "price": 171.7273,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-05": {
+      "price": 172.9091,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-06": {
+      "price": 174.0909,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-07": {
+      "price": 175.2727,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-08": {
+      "price": 176.4545,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-09": {
+      "price": 177.6364,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-10": {
+      "price": 178.8182,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-11": {
+      "price": 180.0,
+      "basis": "INTERPOLATED",
+      "note": "Interpolated Dec-2024 to the USGS Nov-2025 anchor ($180/kg)"
+    },
+    "2025-12": {
+      "price": 180.0,
+      "basis": "INTERPOLATED",
+      "note": "Held at the USGS Nov-2025 anchor"
+    },
+    "2026-01": {
+      "price": 230.0,
+      "basis": "INTERPOLATED",
+      "note": "Back-calculated from Argus '+43% YTD by 19 Feb 2026'"
+    },
+    "2026-02": {
+      "price": 336.0,
+      "basis": "REAL",
+      "note": "Argus tantalite concentrate spot, 19 Feb 2026"
+    },
+    "2026-03": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-04": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-05": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-06": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-07": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-08": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-09": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-10": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-11": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    },
+    "2026-12": {
+      "price": 336.0,
+      "basis": "ASSUMPTION",
+      "note": "NO public data found after Feb-2026 \u2014 held flat. Very likely an UNDERESTIMATE; override if you have a better figure."
+    }
+  },
+  "Wolframite": {
+    "2019-01": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-02": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-03": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-04": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-05": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-06": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-07": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-08": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-09": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-10": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-11": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2019-12": {
+      "price": 19.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2019, $198/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-01": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-02": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-03": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-04": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-05": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-06": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-07": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-08": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-09": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-10": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-11": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2020-12": {
+      "price": 17.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2020, $172/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-01": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-02": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-03": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-04": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-05": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-06": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-07": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-08": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-09": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-10": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-11": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2021-12": {
+      "price": 22.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2021, $225/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-01": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-02": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-03": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-04": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-05": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-06": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-07": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-08": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-09": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-10": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-11": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2022-12": {
+      "price": 27.5,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2022, $275/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-01": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-02": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-03": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-04": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-05": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-06": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-07": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-08": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-09": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-10": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-11": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2023-12": {
+      "price": 25.8,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2023, $258/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-01": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-02": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-03": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-04": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-05": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-06": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-07": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-08": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-09": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-10": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-11": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2024-12": {
+      "price": 25.2,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2024, $252/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-01": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-02": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-03": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-04": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-05": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-06": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-07": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-08": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-09": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-10": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-11": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2025-12": {
+      "price": 38.0,
+      "basis": "REAL",
+      "note": "USGS annual average concentrate 2025, $380/mtu WO3 in-warehouse Rotterdam"
+    },
+    "2026-01": {
+      "price": 80.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $750-850/mtu at start of 2026 (midpoint), applied flat Jan-Apr pending monthly detail"
+    },
+    "2026-02": {
+      "price": 80.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $750-850/mtu at start of 2026 (midpoint), applied flat Jan-Apr pending monthly detail"
+    },
+    "2026-03": {
+      "price": 80.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $750-850/mtu at start of 2026 (midpoint), applied flat Jan-Apr pending monthly detail"
+    },
+    "2026-04": {
+      "price": 80.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $750-850/mtu at start of 2026 (midpoint), applied flat Jan-Apr pending monthly detail"
+    },
+    "2026-05": {
+      "price": 265.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $2,500-2,800/mtu (midpoint), held at this range since 29 May 2026"
+    },
+    "2026-06": {
+      "price": 265.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $2,500-2,800/mtu (midpoint), held at this range since 29 May 2026"
+    },
+    "2026-07": {
+      "price": 265.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $2,500-2,800/mtu (midpoint), held at this range since 29 May 2026"
+    },
+    "2026-08": {
+      "price": 265.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $2,500-2,800/mtu (midpoint), held at this range since 29 May 2026"
+    },
+    "2026-09": {
+      "price": 265.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $2,500-2,800/mtu (midpoint), held at this range since 29 May 2026"
+    },
+    "2026-10": {
+      "price": 265.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $2,500-2,800/mtu (midpoint), held at this range since 29 May 2026"
+    },
+    "2026-11": {
+      "price": 265.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $2,500-2,800/mtu (midpoint), held at this range since 29 May 2026"
+    },
+    "2026-12": {
+      "price": 265.0,
+      "basis": "REAL",
+      "note": "Fastmarkets concentrate $2,500-2,800/mtu (midpoint), held at this range since 29 May 2026"
+    }
+  }
+}

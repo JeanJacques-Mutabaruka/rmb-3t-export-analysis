@@ -1,0 +1,101 @@
+{
+  "categories": [
+    "Test record",
+    "Valuation error",
+    "Grade error",
+    "Duplicate declaration",
+    "Non-concentrate product",
+    "Specialty exporter",
+    "Under review"
+  ],
+  "rules": [
+    {
+      "type": "condition",
+      "category": "Valuation error",
+      "conditions": [
+        {
+          "field": "shipment_no",
+          "op": "==",
+          "value": "PMI/RW/0000082"
+        },
+        {
+          "field": "shipment_value_usd",
+          "op": ">",
+          "value": 1000000000.0
+        }
+      ],
+      "note": "Corrupted twin: $5.75bn declared for a 25t tin shipment (~$360,581/kg). The plausible twin at $230,158 is retained.",
+      "created_at": "2026-09-12T18:07:05"
+    },
+    {
+      "type": "condition",
+      "category": "Grade error",
+      "conditions": [
+        {
+          "field": "shipment_no",
+          "op": "==",
+          "value": "AMX/RW/0000015"
+        },
+        {
+          "field": "grade_pct",
+          "op": "<",
+          "value": 1.0
+        }
+      ],
+      "note": "Corrupted twin: grade 0.2778% vs 27.78% for identical quantity and value - misplaced decimal. The 27.78% row is retained.",
+      "created_at": "2026-09-12T18:07:05"
+    },
+    {
+      "type": "condition",
+      "category": "Test record",
+      "conditions": [
+        {
+          "field": "shipment_no",
+          "op": "in",
+          "value": "222/qqqqq/2222222|qqqqq/2222222"
+        }
+      ],
+      "note": "Placeholder shipment numbers - test records (FAMILY GEMS LTD).",
+      "created_at": "2026-09-12T18:07:05"
+    },
+    {
+      "type": "condition",
+      "category": "Valuation error",
+      "conditions": [
+        {
+          "field": "shipment_no",
+          "op": "in",
+          "value": "RW-ETI-B003-0149|RW-NYA-B003-0293"
+        }
+      ],
+      "note": "Unit values far outside the plausible range for their mineral.",
+      "created_at": "2026-09-12T18:07:05"
+    },
+    {
+      "type": "condition",
+      "category": "Specialty exporter",
+      "conditions": [
+        {
+          "field": "exporter",
+          "op": "in",
+          "value": "Luna Smelter Ltd|POWERX Ltd"
+        }
+      ],
+      "note": "Refiners/processors - output is not price-comparable with run-of-mine concentrate. Analyse separately.",
+      "created_at": "2026-09-12T18:07:05"
+    },
+    {
+      "type": "condition",
+      "category": "Non-concentrate product",
+      "conditions": [
+        {
+          "field": "product",
+          "op": "in",
+          "value": "Tin SLAG|Tin Containing Material|Tin Dross|Tin Residue|Tin Waste and Scrap|Tin ingots|Tin Ingots|Tin Rods|Tantalum Pentoxide|Tantalum Hydroxide|Niobium Pentoxide|Niobium Hydroxide"
+        }
+      ],
+      "note": "Refined products and byproducts - not price-comparable with concentrate.",
+      "created_at": "2026-09-12T18:07:05"
+    }
+  ]
+}
