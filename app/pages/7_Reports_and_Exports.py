@@ -16,7 +16,7 @@ from app.downloads import download_button, stamp  # noqa: E402
 from app.formatting import fmt, fmt_money_m  # noqa: E402
 from app.glossary import PURE_QUANTITY, VALUE_FORGONE  # noqa: E402
 from app.style import info_banner, section, warn_banner  # noqa: E402
-from engine import benchmarks_peer as bp, exclusions, losses, reporting  # noqa: E402
+from engine import benchmarks_peer as bp, coverage, exclusions, losses, reporting  # noqa: E402
 
 state.init_state()
 filters = state.page_setup("📄 Reports & Exports")
@@ -44,6 +44,10 @@ with tabs[0]:
 
         years = d["year"].dropna()
         period = f"{int(years.min())}–{int(years.max())}" if len(years) else "—"
+
+        _warn = coverage.coverage_warning(d, filters.get("years"))
+        if _warn:
+            warn_banner(_warn)
 
         section("Value by year and mineral")
         piv = d.pivot_table(index="year", columns="mineral",
@@ -73,7 +77,7 @@ with tabs[0]:
         ep = bp.exporter_periods(d, grain)
         peer_year = pd.DataFrame()
         if not ep.empty:
-            stats = bp.peer_stats(ep, grain, window)
+            stats, _ = bp.peer_stats(ep, grain, window)
             disc = bp.discounts(ep, stats)
             st.metric("Total value forgone vs market average",
                       fmt_money_m(disc["forgone_vs_avg"].sum()),
@@ -252,9 +256,12 @@ with tabs[2]:
 
                 ep = bp.exporter_periods(d, st.session_state.get("t3i_grain", "month"))
                 if not ep.empty:
-                    stats = bp.peer_stats(ep, st.session_state.get("t3i_grain", "month"),
-                                          int(st.session_state.get("t3i_window", 3)))
+                    stats, outliers = bp.peer_stats(
+                        ep, st.session_state.get("t3i_grain", "month"),
+                        int(st.session_state.get("t3i_window", 3)))
                     disc = bp.discounts(ep, stats)
+                    if not outliers.empty:
+                        sheets["Peer outliers excluded"] = outliers
                     dd = disc.copy()
                     dd["period"] = dd["period"].astype(str)
                     sheets["Peer monthly"] = dd
@@ -298,8 +305,8 @@ with tabs[2]:
         peer_tbl = pd.DataFrame()
         forgone_total = 0.0
         if not ep_r.empty:
-            stats_r = bp.peer_stats(ep_r, st.session_state.get("t3i_grain", "month"),
-                                    int(st.session_state.get("t3i_window", 3)))
+            stats_r, _ = bp.peer_stats(ep_r, st.session_state.get("t3i_grain", "month"),
+                                       int(st.session_state.get("t3i_window", 3)))
             disc_r = bp.discounts(ep_r, stats_r)
             forgone_total = float(disc_r["forgone_vs_avg"].sum())
             sc_r = bp.scorecard(disc_r)

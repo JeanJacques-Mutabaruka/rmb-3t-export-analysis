@@ -44,6 +44,15 @@ THEME = {
     "info_bg":                 "#F2FAF5",
     "info_text":               "#1A5C38",
     "info_border":             "#B7DCC6",
+
+    # A fourth, deliberately distinct family for a strategic observation that
+    # is neither a data-quality warning (amber) nor a routine note (green) —
+    # e.g. the competitive-dynamics remark on the Worst Traders tab. Indigo/
+    # blue reads as "insight" rather than "caution", so it doesn't get
+    # visually lumped in with the other two.
+    "insight_bg":              "#EEF1FD",
+    "insight_text":            "#2C3E9E",
+    "insight_border":          "#B9C2F0",
 }
 
 HEADING_FONT = "Cambria, 'Times New Roman', Georgia, serif"
@@ -198,3 +207,11 @@ def warn_banner(message: str, icon: str = "\u26A0\uFE0F") -> None:
 
 def info_banner(message: str, icon: str = "\u2139\uFE0F") -> None:
     _card(message, icon, THEME["info_bg"], THEME["info_text"], THEME["info_border"])
+
+
+def insight_banner(message: str, icon: str = "\U0001F4A1") -> None:
+    """A strategic-observation callout — visually distinct (indigo) from the
+    amber data-quality warning and the green routine note, so a reader's eye
+    doesn't lump this in with either."""
+    _card(message, icon, THEME["insight_bg"], THEME["insight_text"],
+          THEME["insight_border"])

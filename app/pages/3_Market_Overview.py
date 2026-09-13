@@ -16,7 +16,8 @@ from app import state  # noqa: E402
 from app.downloads import download_button  # noqa: E402
 from app.formatting import fmt, fmt_money_m, table_formats  # noqa: E402
 from app.glossary import GRADE_STD_DEV, GROSS_QUANTITY, PURE_QUANTITY, UNIT_PRICE  # noqa: E402
-from app.style import info_banner, section  # noqa: E402
+from app.style import info_banner, section, warn_banner  # noqa: E402
+from engine import coverage  # noqa: E402
 
 state.init_state()
 filters = state.page_setup("📊 Market Overview")
@@ -44,7 +45,9 @@ with tabs[0]:
               fmt(d["pure_quantity_kg"].sum()) + " kg", help=PURE_QUANTITY)
 
     section("Export value by year")
-    st.caption("The most recent year is usually partial — read it as year-to-date.")
+    _warn = coverage.coverage_warning(d, filters.get("years"))
+    if _warn:
+        warn_banner(_warn)
     yearly = d.groupby("year").agg(
         Value=("shipment_value_usd", "sum"),
         Quantity=("quantity_kg", "sum"),

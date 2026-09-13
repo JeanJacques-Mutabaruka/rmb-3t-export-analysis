@@ -67,6 +67,21 @@ PEER_MIN = (
     "material."
 )
 
+PEER_AVG_EXCL_SELF = (
+    "**Peer average excluding this exporter (leave-one-out).** The "
+    "volume-weighted average price of every OTHER exporter shipping the same "
+    "product in the same period — this exporter's own shipments are removed "
+    "before the average is recalculated.\n\n"
+    "This matters most for a **large exporter**: the ordinary peer average "
+    "includes the exporter's own volume, so a big player partly benchmarks "
+    "against itself, which understates how far it actually diverges from "
+    "everyone else. The leave-one-out figure removes that.\n\n"
+    "**Informational only.** Discount %, Value Forgone and Worst Traders "
+    "continue to use the ordinary peer average (which includes everyone), "
+    "unchanged — this column is here to show the difference, not to replace "
+    "the figures you have already reviewed."
+)
+
 VALUE_FORGONE = (
     "**Value forgone.** The additional revenue an exporter would have earned "
     "had it matched the peer benchmark, summed across periods.\n\n"
@@ -212,3 +227,81 @@ WORST_TRADER_CAUTION = (
     "offtake agreements priced off an earlier reference all produce legitimate "
     "discounts. This screen tells you where to look — not what you will find."
 )
+
+COMPETITIVE_RISK_NOTE = (
+    "<b>A worst trader's problem can compound.</b> If other exporters are "
+    "consistently achieving higher selling prices, the buyers behind those "
+    "prices can typically afford higher <b>buying</b> prices too — that is "
+    "usually where the higher selling price comes from. A worst trader can "
+    "therefore be squeezed from both directions: realising less per kilogram "
+    "than its peers, and at risk of losing access to the miners' output "
+    "altogether if a best trader simply outbids it upstream. This is not "
+    "only a pricing gap — left unaddressed, it can threaten the trader's "
+    "ability to source material at all."
+)
+
+COMPETITIVE_RISK_DETAIL = """
+Understanding **why** the best performers are achieving what they achieve —
+better buyer relationships, better market access, better-timed contracts,
+higher-grade consistency — is often more useful than the discount figure
+itself. A worst trader's gap may not be a matter of willingness to negotiate
+if it simply cannot match what a stronger buyer relationship makes possible
+for someone else.
+
+Compare this tab against **Best Traders** for the same commodity and year:
+where the same buyers or destinations appear on both sides, that is usually
+the clearest sign of a real, addressable gap rather than a structural
+disadvantage.
+"""
+
+MONTHS_COLUMN_BELOW = (
+    "**The specific periods where this exporter priced below the peer "
+    "average.** Use these to jump straight to the months that matter — filter "
+    "to them on the Exporter Detail or Compare Exporters tab to see what was "
+    "shipped, to whom, and where, rather than reading the annual figure alone."
+)
+
+MONTHS_COLUMN_ABOVE = (
+    "**The specific periods where this exporter priced above the peer "
+    "average.** The mirror of 'Months below avg' on Worst Traders — filter to "
+    "these on Exporter Detail or Compare Exporters to see what was different "
+    "about the months where this exporter did well."
+)
+
+BEST_TRADER_METHOD = """
+### What "best trader" means here
+
+The mirror image of a worst trader: an exporter that repeatedly sold **above**
+what its direct peers achieved for the **same product in the same period** —
+and moved enough tonnage for that premium to represent real money.
+
+Understanding *why* a best trader does well is as valuable as understanding why
+a worst trader does not. Common legitimate reasons include a stronger or more
+diversified buyer base, better-timed contracts, more consistent grade
+(commanding fewer impurity penalties), or simply better market intelligence.
+
+---
+
+### How the calculation works
+
+Identical method to Worst Traders, mirrored:
+
+> Value gained = max(0, Exporter price − Peer average) × Exporter's pure quantity
+
+The `max(0, …)` matters here too: a period where the exporter sold **below**
+the average contributes **zero**, not a negative offset — a strong year is not
+diluted by one weak period any more than a weak year is rescued by one strong
+one.
+
+**Value gained ($)** prioritises where the extra money actually is. **Premium
+(%)** finds the largest percentage premium regardless of volume — use the
+minimum-quantity filter to stop a single small, well-priced lot dominating the
+table.
+
+**% qty above avg** is the volume-weighted read: the share of an exporter's
+contained tonnage that moved in periods when its price beat the average. It
+matters more than counting periods, for the same reason it matters on the
+Worst Traders side — a single large, well-priced consignment can carry most of
+a year's tonnage.
+"""
+

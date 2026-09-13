@@ -15,7 +15,7 @@ from app import state  # noqa: E402
 from app.downloads import download_button  # noqa: E402
 from app.formatting import fmt_money_m  # noqa: E402
 from app.style import info_banner, section, warn_banner  # noqa: E402
-from engine import benchmarks_intl as bi, losses  # noqa: E402
+from engine import benchmarks_intl as bi, coverage, losses  # noqa: E402
 
 state.init_state()
 filters = state.page_setup("🌍 International Benchmark")
@@ -104,6 +104,10 @@ with tabs[1]:
         c1, c2 = st.columns(2)
         c1.metric("Estimated cumulative gap", fmt_money_m(ann["Total"].sum()))
         c2.metric("Period", f"{int(ann.index.min())}–{int(ann.index.max())}")
+
+        _warn = coverage.coverage_warning(d, filters.get("years"))
+        if _warn:
+            warn_banner(_warn)
 
         section("Estimated loss by year and mineral")
         st.dataframe(ann.style.format("${:,.0f}"), width="stretch")

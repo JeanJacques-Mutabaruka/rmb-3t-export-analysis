@@ -1,6 +1,6 @@
 # RMB 3T Export Intelligence
 
-**Version V1-0c**
+**Version V1-0f**
 
 A Streamlit tool that maintains a growing history of Rwanda's 3T (tin, tantalum,
 tungsten) mineral export declarations from MCIS extracts, and benchmarks them

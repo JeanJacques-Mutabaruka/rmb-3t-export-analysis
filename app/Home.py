@@ -127,6 +127,6 @@ with right:
 
 st.divider()
 st.caption(
-    "Tool version V1-0c · Prices are always $/kg of contained metal, so grade "
+    "Tool version V1-0f · Prices are always $/kg of contained metal, so grade "
     "differences never distort a comparison."
 )

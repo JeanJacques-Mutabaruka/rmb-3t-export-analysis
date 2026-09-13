@@ -13,7 +13,7 @@ import streamlit as st
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
-TOOL_VERSION = "V1-0c"
+TOOL_VERSION = "V1-0f"
 HEADER_FILL = PatternFill("solid", start_color="1A5C38")
 HEADER_FONT = Font(bold=True, color="FFFFFF", size=10)
 
